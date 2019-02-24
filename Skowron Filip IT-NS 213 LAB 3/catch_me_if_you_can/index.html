@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catch me if you can</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header">
+    Catch me if you can
+</div>
+<div class="parent">
+    <div class="column left">
+        <div id="map"></div>
+    </div>
+    <div class="column right">
+        <div id="chat">
+
+        </div>
+        <div class="controls">
+            <label>Message: <input type="text" id="message"></label></label>
+            <button id="sendMessageButton">Send message</button>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoD1JF9eSgFKnu4iI-7eczBl9owsC1sVI&callback=initMap" async
+        defer></script>
+</body>
+</html>

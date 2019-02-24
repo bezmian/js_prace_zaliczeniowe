@@ -1,0 +1,76 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    color: #02ba92;
+    font-size: xx-large;
+    letter-spacing: 4px;
+    padding: 32px;
+}
+
+.parent {
+    height: 92%;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    height: 100%;
+
+}
+
+.left {
+    width: 75%;
+    height: 100%;
+
+}
+
+.right {
+    width: 25%;
+}
+
+.note {
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.notesHeader {
+    color: #02ba92;
+    margin-left: 32px;
+}
+
+.textHeader {
+    color: #02ba92;
+    margin-bottom: 8px;
+}
+
+.note {
+    margin: 16px 16px 16px 32px;
+    padding: 16px;
+}
+
+.title {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.content {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.addButton{
+    background: #02ba92;
+    padding: 8px;
+    border: none;
+    color: #fff;
+}

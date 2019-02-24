@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="parent">
+    <div class="row">
+        <div class="left">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="right">
+            <div class=sliders">
+                <h2>Photo editor</h2>
+                Brightness:
+                <input type="range" min="-100" max="100" value="1" class="slider" id="brightnessRange">
+                Contrast:
+                <input type="range" min="-100" max="100" value="1" class="slider" id="contrastRange">
+                Saturation:
+                <input type="range" min="1" max="100" value="1" class="slider" id="saturationRange">
+
+                <input id="filePicker" type="file" accept="image/png, image/jpeg" />
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

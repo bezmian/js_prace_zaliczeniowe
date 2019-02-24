@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background: cadetblue;
+    height: 48px;
+    font-size: xx-large;
+    color: white;
+    padding: 32px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.channel {
+    font-size: x-large;
+    padding: 32px;
+    border-radius: 16px;
+    background: beige;
+    border: 2px solid;
+}
+
+.startRecord {
+    border: none;
+    padding: 8px;
+    background-color: #279d00;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.stopRecord {
+    border: none;
+    padding: 8px;
+    background-color: #f00;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.play {
+    border: none;
+    padding: 8px;
+    background-color: #003b9d;
+    color: white;
+    letter-spacing: 2px;
+}

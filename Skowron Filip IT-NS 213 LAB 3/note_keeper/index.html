@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note keeper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header">
+    Note Keeper
+</div>
+<div class="parent">
+    <div class="column left">
+        <p class="notesHeader">Twoje notatki:</p>
+        <div id="notes">
+
+        </div>
+    </div>
+    <div class="column right">
+        <p class="textHeader">Dodaj notatkę</p>
+        <label class="textHeader">Tytuł: <br><input type="text" id="title" name="Tytuł" required/><br></label><br>
+        <label class="textHeader">Treść: <br><textarea id="content" name="Treść" rows="5"
+                                                       cols="33"></textarea><br></label>
+        <label class="textHeader">Wybierz kolor: <br><input type="color" id="color" name="Kolor"><br><br></label>
+        <button id="submit" class="addButton">Dodaj</button>
+    </div>
+</div>
+<script src="Note.js"></script>
+<script src="NoteList.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
